@@ -56,7 +56,7 @@ session_start();
 
             <button onClick="validateDetails()">Validate</button>
 
-            
+            <a href="../homepage.html" class="btn btn-success">Homepage</a>
 
             <?php
 
