@@ -4,6 +4,7 @@
 
     <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+       <center>
         <title>Select Product</title>
 
         
@@ -138,8 +139,10 @@
             <button onClick="calcSub()">Calculate Cost</button>
 
             <a role="button" href="Ebus1.php">Clear Choice</a>
+            <br/>
+               <a href="../homepage.html" type="button" class="btn btn-success">Home</a>
 
-
+</center>
 
     </body>
 

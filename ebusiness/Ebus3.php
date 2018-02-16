@@ -10,13 +10,17 @@ session_start();
 
     <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <center>
         <title>RECEIPT</title>
+        <style>
+            h1 {background-color:Red}
+        </style>
 
     </head>
 
     <body>
 
-        <h4>RECEIPT</h4>
+        <h1>RECEIPT</h1>
 
                 
 
@@ -27,7 +31,9 @@ session_start();
         echo "Total is " . $_SESSION["total"] . ".";
 
         ?>
-
+        <br/>
+         <a href="../homepage.html" class="btn btn-success">Homepage</a>
+</center>
     </body>
 
 </html>
