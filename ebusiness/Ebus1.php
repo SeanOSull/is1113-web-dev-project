@@ -4,6 +4,30 @@
 
     <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <style>
+                    
+* {
+    box-sizing: border-box;
+}
+.mainheading{
+    border: 1px solid red;
+    padding: 15px;
+}
+
+                  body {
+    background-color: lightblue;
+}
+
+h1 {
+    background-color: yellow;
+}
+      
+      
+      
+      
+      
+      
+  </style>
        <center>
         <title>Select Product</title>
 
@@ -25,7 +49,7 @@
 
       
 
-            <h4>Select a Product</h4>
+            <h1 class="mainheading">Select a Product</h1>
 
             
 

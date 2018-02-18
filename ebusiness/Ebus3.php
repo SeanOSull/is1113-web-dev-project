@@ -13,14 +13,29 @@ session_start();
      <center>
         <title>RECEIPT</title>
         <style>
-            h1 {background-color:Red}
+                          
+* {
+    box-sizing: border-box;
+}
+.mainheading{
+    border: 1px solid red;
+    padding: 15px;
+}
+
+                  body {
+    background-color: lightblue;
+}
+
+h1 {
+    background-color: yellow;
+}
         </style>
 
     </head>
 
     <body>
 
-        <h1>RECEIPT</h1>
+        <h1 class="mainheading">RECEIPT</h1>
 
                 
 

@@ -14,11 +14,26 @@ session_start();
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
        <style>
        
-       
-          h1 {background:red;font-:45px;}
+                     
+* {
+    box-sizing: border-box;
+}
+.mainheading{
+    border: 1px solid red;
+    padding: 15px;
+}
+
+                  body {
+    background-color: lightblue;
+}
+
+h1 {
+    background-color: yellow;
+}
+          
         
        </style>
-      <center>
+      
         <title>Enter Details</title>
 
         
@@ -33,7 +48,7 @@ session_start();
 
     <body>
 
-        <h1>Please enter your payment details</h1>
+        <h1 class="mainheading">Please enter your payment details</h1>
         
         <br/>
         
@@ -87,8 +102,7 @@ session_start();
 
             ?>
 
-        </center>
-
+        
     </body>
 
 </html>
