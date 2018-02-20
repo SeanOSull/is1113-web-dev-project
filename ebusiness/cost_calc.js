@@ -13,28 +13,27 @@ function calcSub(){
       argSubTotal = 300;
 
     }
+     var argSubTotal;
     
       if(document.getElementById('Cloud9').checked) {
 
       argSubTotal = 200;
 
     }
+     var argSubTotal;
 
-    
+     if(document.getElementById('Gmail').checked) {
 
-    if(document.getElementById('salesforce').checked) {
+      argSubTotal = 400;
+
+    }
+     var argSubTotal;
+
+     if(document.getElementById('salesforce').checked) {
 
       argSubTotal = 100;
 
     }
-
-    else {
-
-      argSubTotal = 300;
-
-    }
-
-    
 
     display(argSubTotal);
 

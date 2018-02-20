@@ -28,7 +28,7 @@ h1 {
       
       
   </style>
-       <center>
+       
         <title>Select Product</title>
 
         
@@ -48,6 +48,10 @@ h1 {
     <body>
 
       
+<?php
+$x = subtotal;  
+$y = 0.05;
+ ?> 
 
             <h1 class="mainheading">Select a Product</h1>
 
@@ -79,7 +83,7 @@ h1 {
 
               <label for="Cloud 9">
 
-                <input type="radio" id="Cloud9" name="product" onClick="disablebtnProceed()"/>
+                <input type="radio" id="Cloud9" name="product" checked onClick="disablebtnProceed()"/>
 
                 Cloud9 @ $200
 
@@ -90,7 +94,7 @@ h1 {
                
                 <label for="AmazonWebServices">
 
-                <input type="radio" id="AmazonWebServices" name="product" onClick="disablebtnProceed()"/>
+                <input type="radio" id="AmazonWebServices" name="product" checked onClick="disablebtnProceed()"/>
 
                 AmazonWebServices @ $300
 
@@ -100,7 +104,7 @@ h1 {
               
                <label for="Gmail">
 
-                <input type="radio" id="Gmail" name="product" onClick="disablebtnProceed()"/>
+                <input type="radio" id="Gmail" name="product" checked onClick="disablebtnProceed()"/>
 
                 Gmail @ $400
 
@@ -113,7 +117,7 @@ h1 {
 
                <br/>
 
-              
+                <br/>
 
               <label for="subtotal">
 
@@ -123,33 +127,52 @@ h1 {
 
               </label>
 
-              
+              <br/>
+
+            
 
               <br/>
               <label for="Discount @ 5%">
   Discount @ 5%
-  <input type="text" id="Discount @ 5%"  value="0.00" readonly/>
+  <input type="text" id="Discount @ 5%"  value="($x * $y;)" readonly/>
 </label>
 
+<br/>
 
+            
 
 <br/>
-              
+              <label for="Vat @ 10%">
+  Vat @ 10%
+  <input type="text" id="Vat" @ 10%"  value="0.00" readonly/>
+</label>
+              <br/>
+
+            
+
+<br/>
 
               <label for="total">
 
                 Total
 
-                <input type="hidden" id="total" name="total" value="0.00" readonly/>
+                <input type="text" id="total" name="total" value="0.00" readonly/>
 
               </label>
+              <br/>
+<label for="(-Discount,+Vat)">
 
+                (-Discount,+Vat)
+
+                <input type="hidden" name="(-Discount,+Vat)"  readonly/>
+
+              </label>
     
 
               <br/>
-
-              
-
+<br/>
+    
+<br/>
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
 
             
@@ -163,10 +186,10 @@ h1 {
             <button onClick="calcSub()">Calculate Cost</button>
 
             <a role="button" href="Ebus1.php">Clear Choice</a>
-            <br/>
+            
                <a href="../homepage.html" type="button" class="btn btn-success">Home</a>
 
-</center>
+
 
     </body>
 

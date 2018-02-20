@@ -92,8 +92,8 @@ h1 {
             <button onClick="validateDetails()">Validate</button>
 
             <a href="../homepage.html" class="btn btn-success">Homepage</a>
-             <a href="../ebusiness/Ebus1.php" class="btn btn-dark">Back</a>
-<a href="../ebusiness/Ebus3.php" class="btn btn-success">Bus3</a>
+            <a href="../ebusiness/Ebus1.php" class="btn btn-dark">Back</a>
+            <a href="../ebusiness/Ebus3.php" class="btn btn-success">Bus3</a>
             <?php
 
             // Set session variables
