@@ -1,15 +1,26 @@
 
- 
-#section1{
-    background-color: rgb(238, 0, 90);
+#section1 {
+    background: url("http://paradiseintheworld.com/wp-content/uploads/2013/02/1680x1050-Lisbon-Portugal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#section2 {
+    background: url("http://1.bp.blogspot.com/-i0I6N40_Z40/UcyIoPGLv6I/AAAAAAAAL1k/wtrgENG1yxU/s1600/dubai.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
 
-#section2{
-  background-color: rgb(44, 62, 80);
-}
+#section3 {
+    background: url("http://colorfullyspain.com/blog/wp-content/uploads/2016/02/Edited-Main-image-Malaga-Spain-E9CPYT-1900x1080_c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 
-#section3{
-      background-color: rgb(51, 153, 204);
 }
 
 .section{

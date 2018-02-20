@@ -47,11 +47,7 @@ h1 {
 
     <body>
 
-      
-<?php
-$x = subtotal;  
-$y = 0.05;
- ?> 
+  
 
             <h1 class="mainheading">Select a Product</h1>
 
@@ -134,7 +130,7 @@ $y = 0.05;
               <br/>
               <label for="Discount @ 5%">
   Discount @ 5%
-  <input type="text" id="Discount @ 5%"  value="($x * $y;)" readonly/>
+  <input type="text" id="Discount @ 5%"  value= echo subtotal/0.05 readonly/>
 </label>
 
 <br/>

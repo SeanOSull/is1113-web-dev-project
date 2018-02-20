@@ -49,21 +49,24 @@ h1 {
     <body>
 
         <h1 class="mainheading">Please enter your payment details</h1>
-        
+        <form method="POST" action="Ebus2.php">
         <br/>
-        
+        <p>
+            
           <label for="User_name">Full Name:</label>
         <label for="User_name"</label>
                 <input id="User_name" placeholder="Cardholders Name"
                 <br/>
-            
+            </p>
+            <p>
             <br/>
           <label for="User_email">Email Address:</label>
         <label for="User_email"</label>
                 <input id="User_email" placeholder="Cardholders Email"
-
+                </form
+</p>
             <br/>
-
+<br/>
 
         
 
@@ -72,7 +75,7 @@ h1 {
             <form action="Ebus3.php" method="POST">
 
 
-
+<p>
                     <label for="user_pin">Pin:</label>
 
                     
@@ -80,6 +83,7 @@ h1 {
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
 <br/>
+</p>
 
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
 
