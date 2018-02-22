@@ -1,11 +1,4 @@
- body
- {
-  background: url("https://crokepark.ie/BlankSite/media/stadium-about-images/directors-banner1.jpg?ext=.jpg");
-    background-repeat: y-repeat;
-    background-size: cover;
-    background-position: center;
- } 
- * {
+ #Sportsbody {
     box-sizing: border-box;
 }
 .mainheading{
@@ -13,11 +6,11 @@
     padding: 15px;
 }
 
-                  body {
-    background-color: lightblue;
+p{
+    color: white;
 }
 
 h1 {
-    background-color: Grey;
+    background-color: grey;
+
 }
-    

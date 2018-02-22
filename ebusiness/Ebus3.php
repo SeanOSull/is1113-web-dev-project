@@ -66,7 +66,7 @@ h1 {
         <br/>
         </p>
         <p>
-         <button href="../homepage.html" type="submit" class="btn btn-success">Homepage</a>
+         <a href="../homepage.html" type="submit" class="btn btn-success">Homepage</a>
          
          </p>
 </center>
