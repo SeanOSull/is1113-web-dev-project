@@ -13,14 +13,10 @@ session_start();
      <center>
         <title>RECEIPT</title>
         <style>
-                          
-* {
-    box-sizing: border-box;
-}
-.mainheading{
-    border: 1px solid red;
-    padding: 15px;
-}
+     p
+     .double {border-style: double;
+         
+     }             
 
                   body {
     background-color: lightblue;
@@ -39,19 +35,20 @@ h1 {
            Perchase Receipt
         </h1>
         
-        <p>
+        <p class="p">
             <?php
-                //Echo Session variables that were on previous page
-                echo "Name: " . $_POST["User_name"];
+               
+                echo "Name: " . $_SESSION["User_name"];
             ?>
             <br />
             <?php
-                //Echo Session variables that were on previous page
-                echo "Email Address: " . $_POST["User_email"];
+              
+                echo "Email Address: " . $_SESSION["User_email"];
             ?>
+            
             <br />
             <?php
-                //Echo Session variables that were on previous page
+             
                 echo "Total: &euro; " . $_SESSION["total"].".";
             ?>
         </p>

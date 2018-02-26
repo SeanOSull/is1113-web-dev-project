@@ -49,7 +49,8 @@ h1 {
     <body>
 
         <h1 class="mainheading">Please enter your payment details</h1>
-        <form method="POST" action="Ebus2.php">
+      
+        <form method="POST" action="Ebus3.php">
         <br/>
         <p>
             
@@ -63,7 +64,7 @@ h1 {
           <label for="User_email">Email Address:</label>
         <label for="User_email"</label>
                 <input id="User_email" placeholder="Cardholders Email"
-                </form
+                </form>
 </p>
             <br/>
 <br/>
