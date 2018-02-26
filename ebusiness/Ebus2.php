@@ -4,7 +4,7 @@
 
 session_start();
 
-?>
+ ?>
 
 <!DOCTYPE html>
 
@@ -54,6 +54,8 @@ h1 {
         <br/>
         <p>
             
+            
+            
           <label for="User_name">Full Name:</label>
         <label for="User_name"</label>
                 <input id="User_name" placeholder="Cardholders Name"
@@ -64,17 +66,14 @@ h1 {
           <label for="User_email">Email Address:</label>
         <label for="User_email"</label>
                 <input id="User_email" placeholder="Cardholders Email"
-                </form>
+              
 </p>
             <br/>
 <br/>
 
         
 
-        
-
-            <form action="Ebus3.php" method="POST">
-
+       
 
 <p>
                     <label for="user_pin">Pin:</label>
@@ -86,9 +85,7 @@ h1 {
 <br/>
 </p>
 
-                <a href="../ebusiness/Ebus3.php" id="btnPurchase">Proceed with Purchase</a>
-
-              
+                  <button type="Submit" id="btnPurchase" disabled>Proceed with Purchase</button>
 
             </form>
 
@@ -98,16 +95,34 @@ h1 {
 
             <a href="../homepage.html" class="btn btn-success">Homepage</a>
             <a href="../ebusiness/Ebus1.php" class="btn btn-dark">Back</a>
+             <a href="Ebus3.php" class="btn btn-dark">Ebus 3</a>
         
             <?php
 
             // Set session variables
 
             $_SESSION["total"] = $_POST["total"];
+            
+
+            ?>
+            
+            <?php
+
+            // Set session variables
+
+            $_SESSION["User_name"] = $_POST["User_name"];
+            
 
             ?>
 
-        
+        <?php
+
+            // Set session variables
+
+            $_SESSION["User_email"] = $_POST["User_email"];
+            
+
+            ?>
     </body>
 
 </html>

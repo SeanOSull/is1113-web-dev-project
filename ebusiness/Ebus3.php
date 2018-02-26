@@ -1,9 +1,3 @@
-<?php
-
-session_start();
-
-?>
-
 <!DOCTYPE html>
 
 <html>
@@ -35,21 +29,22 @@ h1 {
            Perchase Receipt
         </h1>
         
-        <p class="p">
-            <?php
-               
-                echo "Name: " . $_SESSION["User_name"];
-            ?>
-            <br />
-            <?php
+        <p id="p">
+   
+              <?php
               
-                echo "Email Address: " . $_SESSION["User_email"];
+                echo "Email Address: ; " . $_SESSION["User_email"]."."
             ?>
             
             <br />
             <?php
              
-                echo "Total: &euro; " . $_SESSION["total"].".";
+                echo "Total: &euro; " . $_SESSION["total"]."."
+            ?>
+            <br/>
+              <?php
+              
+                echo "Name: ; " . $_SESSION["User_name"]."."
             ?>
         </p>
 </html>
