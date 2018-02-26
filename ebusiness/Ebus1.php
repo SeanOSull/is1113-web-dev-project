@@ -90,7 +90,7 @@ h1 {
                
                 <label for="AmazonWebServices">
 
-                <input type="radio" id="AmazonWebServices" name="product" checked onClick="disablebtnProceed()"/>
+                <input type="radio" id="AWS" name="product" checked onClick="disablebtnProceed()"/>
 
                 AmazonWebServices @ $300
 
@@ -130,7 +130,7 @@ h1 {
               <br/>
               <label for="Discount @ 5%">
   Discount @ 5%
-  <input type="text" id="Discount @ 5%"  value= echo subtotal/0.05 readonly/>
+  <input type="text" id="Discount @ 5%"  value="0.00" readonly/>
 </label>
 
 <br/>
@@ -140,7 +140,7 @@ h1 {
 <br/>
               <label for="Vat @ 10%">
   Vat @ 10%
-  <input type="text" id="Vat" @ 10%"  value="0.00" readonly/>
+  <input type="text" id="Vat @ 10%"  value="0.00" readonly/>
 </label>
               <br/>
 

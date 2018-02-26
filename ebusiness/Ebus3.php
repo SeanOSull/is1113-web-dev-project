@@ -35,41 +35,24 @@ h1 {
 
     <body>
 
-        <h1 class="mainheading">Purchase Receipt</h1>
-
-                
-<p>
-        <?php
-
-        // Echo session variables that were set on previous page
- echo "Name:  " . $_SESSION["total"] . ".";
-?>
-<br/>
-</p>
-<p>
-        <?php
-
-        // Echo session variables that were set on previous page
-  echo "Email: " . $_SESSION["total"] . ".";
-  ?>
-  <br/>
-  </p>
-  <p>
-        <?php
-
-        // Echo session variables that were set on previous page
-  
-        echo "Total price: " . $_SESSION["total"] . ".";
-       
-
-        ?>
-        <br/>
-        </p>
+     <h1> 
+           Perchase Receipt
+        </h1>
+        
         <p>
-         <a href="../homepage.html" type="submit" class="btn btn-success">Homepage</a>
-         
-         </p>
-</center>
-    </body>
-
+            <?php
+                //Echo Session variables that were on previous page
+                echo "Name: " . $_POST["User_name"];
+            ?>
+            <br />
+            <?php
+                //Echo Session variables that were on previous page
+                echo "Email Address: " . $_POST["User_email"];
+            ?>
+            <br />
+            <?php
+                //Echo Session variables that were on previous page
+                echo "Total: &euro; " . $_SESSION["total"].".";
+            ?>
+        </p>
 </html>

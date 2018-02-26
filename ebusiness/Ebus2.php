@@ -85,7 +85,7 @@ h1 {
 <br/>
 </p>
 
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                <a href="../ebusiness/Ebus3.php" id="btnPurchase">Proceed with Purchase</a>
 
               
 
@@ -93,11 +93,11 @@ h1 {
 
             <br/>
             
-            <button onClick="validateDetails()">Validate</button>
+            <button onClick="enablebtnPurchase">Validate</button>
 
             <a href="../homepage.html" class="btn btn-success">Homepage</a>
             <a href="../ebusiness/Ebus1.php" class="btn btn-dark">Back</a>
-            <a href="../ebusiness/Ebus3.php" class="btn btn-success">Bus3</a>
+        
             <?php
 
             // Set session variables
