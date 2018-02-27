@@ -100,8 +100,8 @@ h1 {
 
 
 
-            <a href="../ebusiness/Ebus1.php" class="btn btn-dark">Back</a>
-             
+            
+             <input type="button" name="back" value="Back" onClick="window.location.href = '../ebusiness/Ebus1.php'"/>
        
             <?php
             $_SESSION["total"] = $_POST["total"];

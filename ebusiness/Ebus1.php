@@ -186,12 +186,12 @@ h1 {
 
             <button onClick="calcSub()">Calculate Cost</button>
             
-
-            <a role="button" href="Ebus1.php">Clear Choice</a>
             
-               <a href="../homepage.html" type="button" class="btn btn-success">Home</a>
+             <input type="button" name="clear" value="Clear Choice" onClick="window.location.href = 'Ebus1.php'"/>
+       
 
-
+     <input type="button" name="homepage" value="Homepage" onClick="window.location.href = '../homepage.html'"/>
+            
 
     </body>
 

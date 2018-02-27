@@ -81,7 +81,7 @@ session_start();
         </div>
         </br>
         <p>
-         <a href="../homepage.html" class="btn btn-success">Home</a>
+         <input type="button" name="homepage" value="Homepage" onClick="window.location.href = '../homepage.html'"/>
          </p>
         </body>
 </html>

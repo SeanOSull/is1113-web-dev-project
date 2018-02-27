@@ -6,18 +6,31 @@ function validateDetails(){
 
      var pin, NAME, EMAIL;
 
-    pin = document.getElementById("user_pin").value;
-
-    if (pin ==""){
-        alert("Please enter your PIN");
-    }
-    else if (String(pin).length<4){
+ pin = document.getElementById("user_pin").value;
+ EMAIL = document.getElementById("EMAIL").value;
+ NAME = document.getElementById("NAME").value;
+   
+    
+    if (String(pin).length<4){
         alert("Please make sure your PIN is accurate");
         }
-   else{
-            enablebtnPurchase();}
+   
+    if (NAME==""){
+                 alert("Please enter your name.")
+             }
+ 
+          
+    if (EMAIL==""){
+                 alert("Please enter your Email.")
+             }  
+  else
+   {
+                   enablebtnPurchase();
+              }
+          
             
-            
+  
+           
 
 function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled',false);
