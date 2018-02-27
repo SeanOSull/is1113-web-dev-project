@@ -1,3 +1,11 @@
+<?php
+
+// Start the session
+
+session_start();
+
+ ?>
+ 
 <!DOCTYPE html>
 
 <html>
@@ -29,22 +37,32 @@ h1 {
            Perchase Receipt
         </h1>
         
-        <p id="p">
-   
-              <?php
-              
-                echo "Email Address: ; " . $_SESSION["User_email"]."."
-            ?>
+        <p>
+            <div class="receipt">
+
+
+<?php
+$_SESSION["NAME"] = $_POST["NAME"];
+$_SESSION["EMAIL"] = $_POST["EMAIL"];
+
             
-            <br />
-            <?php
-             
-                echo "Total: &euro; " . $_SESSION["total"]."."
-            ?>
-            <br/>
-              <?php
-              
-                echo "Name: ; " . $_SESSION["User_name"]."."
-            ?>
+            
+   
+            
+                echo "<h4 id='NAME'>Name: " . $_SESSION["NAME"] . "<h4/>"; 
+           
+                
+                echo "Email: " . $_SESSION["EMAIL"].".";
+            
+                ?>
+                <br/>
+                <?php
+                echo "Total: &euro; " . $_SESSION["total"].".";
+                
+                
+          ?>
+         
+          <br/>
         </p>
+        </div>
 </html>

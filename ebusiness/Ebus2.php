@@ -43,6 +43,8 @@ h1 {
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <script type="text/javascript" src="ebus2_validator.js"></script>
+     
+
 
     </head>
 
@@ -56,16 +58,16 @@ h1 {
             
             
             
-          <label for="User_name">Full Name:</label>
-        <label for="User_name"</label>
-                <input id="User_name" placeholder="Cardholders Name"
+          <label for="NAME">Full Name:
+        
+                <input type="text" name="NAME"id="NAME" placeholder="Cardholders Name"</label>
                 <br/>
             </p>
             <p>
             <br/>
-          <label for="User_email">Email Address:</label>
-        <label for="User_email"</label>
-                <input id="User_email" placeholder="Cardholders Email"
+          <label for="EMAIL">Email Address:</label>
+     
+                <input id="EMAIL" placeholder="Cardholders Email"  onInput="disablebtnPurchase()">
               
 </p>
             <br/>
@@ -80,7 +82,7 @@ h1 {
 
                     
 
-                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4"  onInput="disablebtnPurchase()">
 
 <br/>
 </p>
@@ -102,27 +104,12 @@ h1 {
             // Set session variables
 
             $_SESSION["total"] = $_POST["total"];
+          
+           
             
 
-            ?>
             
-            <?php
-
-            // Set session variables
-
-            $_SESSION["User_name"] = $_POST["User_name"];
             
-
-            ?>
-
-        <?php
-
-            // Set session variables
-
-            $_SESSION["User_email"] = $_POST["User_email"];
-            
-
-            ?>
+          ?>
     </body>
-
-</html>
+    </html>
