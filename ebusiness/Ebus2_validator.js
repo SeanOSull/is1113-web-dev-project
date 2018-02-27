@@ -1,10 +1,8 @@
-
-
 /* global $ */
 
 function validateDetails(){
 
-     var pin, NAME, EMAIL;
+     var pin,
 
     pin = document.getElementById("user_pin").value;
 
@@ -18,12 +16,18 @@ function validateDetails(){
             enablebtnPurchase();
             }
             
-            
 
 function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled',false);
-
 }
+
+
+
 function disablebtnPurchase() {
     $('#btnPurchase').prop('disabled',true);
 }
+    
+    
+    
+    
+    

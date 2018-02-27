@@ -28,8 +28,10 @@
 }
 
 
-#section8{
-    background: url("http://www.eitcafe.com/wp-content/uploads/2016/07/Salesforce.jpg");
+    
+    
+    #section8{
+    background-color: blue;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,20 +39,19 @@
 
 
 #section9{
-    background: url("http://3.bp.blogspot.com/-2fyWSxOVogg/ToRg-EEsy7I/AAAAAAAACQQ/_V9b9ZDG9VI/s1600/cloud-paas.jpg");
+    background-color: REd;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
  } 
 #section10{
-    background: url("http://www.satprnews.com/wp-content/uploads/2017/07/Infrastructure-as-a-Service.jpg");
-    background-repeat: no-repeat;
+    background-color:green;
     background-size: cover;
     background-position: center;
  } 
 
 #section11{
-    background: url("http://www.logo123.net/logos/2014/08/15/2014081511251835355354.png");
+    background-color:Yellow;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -59,4 +60,5 @@
 .section{
     text-align:center;
     color:purple;
+}  
 }

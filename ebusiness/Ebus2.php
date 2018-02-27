@@ -60,14 +60,14 @@ h1 {
             
           <label for="NAME">Full Name:
         
-                <input type="text" name="NAME"id="NAME" placeholder="Cardholders Name"</label>
+                <input type="text" name="NAME"class="NAME" placeholder="Cardholders Name"</label>
                 <br/>
             </p>
             <p>
             <br/>
           <label for="EMAIL">Email Address:</label>
      
-                <input id="EMAIL" placeholder="Cardholders Email"  onInput="disablebtnPurchase()">
+                <input class="EMAIL" placeholder="Cardholders Email"  onInput="disablebtnPurchase()">
               
 </p>
             <br/>
@@ -99,17 +99,22 @@ h1 {
             <a href="../ebusiness/Ebus1.php" class="btn btn-dark">Back</a>
              <a href="Ebus3.php" class="btn btn-dark">Ebus 3</a>
         
-            <?php
-
-            // Set session variables
-
-            $_SESSION["total"] = $_POST["total"];
-          
            
-            
 
-            
-            
-          ?>
+        <?php
+
+        // Set session variables
+
+        $_SESSION["total"] = $_POST["total"];
+
+        $_SESSION["Vat @ 10%"] = $_POST["Vat @ 10%"];
+
+        $_SESSION["Discount @ 5%"] = $_POST["Discount @ 5%"];
+
+        $_SESSION["subtotal"] = $_POST["subtotal"];
+
+        ?>
+
+        
     </body>
     </html>
