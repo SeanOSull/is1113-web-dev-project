@@ -14,7 +14,8 @@ session_start();
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
        <style>
        
-                     
+      
+      
 * {
     box-sizing: border-box;
 }
@@ -42,7 +43,7 @@ h1 {
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <script type="text/javascript" src="Ebus2_validator.js"></script>
      
 
 
@@ -60,29 +61,27 @@ h1 {
             
           <label for="NAME">Full Name:</label>
         
-                <input id="NAME" name="NAME" placeholder="Cardholders Name" onInput="disablebtnPurchase()">
+                <input id="NAME" name="NAME" placeholder="Cardholders Name">
                 <br/>
             </p>
             <p>
             <br/>
           <label for="EMAIL">Email Address:</label>
      
-                <input id="EMAIL" name="EMAIL" placeholder="Cardholders Email"  onInput="disablebtnPurchase()">
+                <input id="EMAIL" name="EMAIL" placeholder="Cardholders Email">
               
 </p>
-            <br/>
-<br/>
-
+  <BR>
         
 
        
 
-<p>
+
                     <label for="user_pin">Pin:</label>
 
                     
 
-                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4"  onInput="disablebtnPurchase()">
+                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
 <br/>
 </p>
@@ -93,15 +92,23 @@ h1 {
 
             <br/>
             
-            <button onClick="enablebtnPurchase">Validate</button>
+            <button onClick="validateDetails()">Validate</button>
 
-            <a href="../homepage.html" class="btn btn-success">Homepage</a>
+
+
+<input type="button" name="homepage" value="Homepage" onClick="window.location.href = '../homepage.html'"/>
+
+
+
             <a href="../ebusiness/Ebus1.php" class="btn btn-dark">Back</a>
-             <a href="Ebus3.php" class="btn btn-dark">Ebus 3</a>
-        
+             
+       
             <?php
             $_SESSION["total"] = $_POST["total"];
             ?>
+           
+            
+            
             <?php
              $_SESSION["NAME"] = $_POST["NAME"];
              ?>

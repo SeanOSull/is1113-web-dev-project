@@ -49,10 +49,7 @@ session_start();
 
         $_SESSION["EMAIL"] = $_POST["EMAIL"];
 
-        
-
-        
-
+    
         
 
         echo "<h4 id='NAME'>Name: " . $_SESSION['NAME'] . "</h4>";
@@ -61,14 +58,13 @@ session_start();
 
         
 
-        
 
-        echo "<h4 id='subtotal'>Subtotal: $" . $_SESSION['subtotal'] . "</h4>";
-
-        echo "<h4 id='Vat @ 10%'>Vat: $" . $_SESSION['Vat @ 10%'] . "</h4>";
-
-        echo "<h4 id='Discount @ 5%'>Discount: $" . $_SESSION['Discount @ 5%'] . "</h4>";
-
+       
+       
+       
+       
+       
+       
         echo "<h4 id='total'>Total: $" . $_SESSION['total'] . "</h4>";
 
       

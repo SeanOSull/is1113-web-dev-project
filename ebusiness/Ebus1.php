@@ -139,9 +139,12 @@ h1 {
 
 <br/>
               <label for="Vat @ 10%">
-  Vat @ 10%
-  <input type="text" id="Vat @ 10%" name="Vat @ 10%" value="0.00" readonly/>
-</label>
+              
+              Vat @ 10%
+              
+          <input type="text" id="Vat @ 10%" name="Vat @ 10%" value="0.00" readonly/>
+        
+        </label>
               <br/>
 
             
@@ -155,8 +158,10 @@ h1 {
                 <input type="text" id="total" name="total" value="0.00" readonly/>
 
               </label>
+             
               <br/>
-<label for="(-Discount,+Vat)">
+              
+            <label for="(-Discount,+Vat)">
 
                 (-Discount,+Vat)
 
