@@ -58,16 +58,16 @@ h1 {
             
             
             
-          <label for="NAME">Full Name:
+          <label for="NAME">Full Name:</label>
         
-                <input type="text" name="NAME"class="NAME" placeholder="Cardholders Name"</label>
+                <input id="NAME" name="NAME" placeholder="Cardholders Name" onInput="disablebtnPurchase()">
                 <br/>
             </p>
             <p>
             <br/>
           <label for="EMAIL">Email Address:</label>
      
-                <input class="EMAIL" placeholder="Cardholders Email"  onInput="disablebtnPurchase()">
+                <input id="EMAIL" name="EMAIL" placeholder="Cardholders Email"  onInput="disablebtnPurchase()">
               
 </p>
             <br/>
@@ -99,22 +99,15 @@ h1 {
             <a href="../ebusiness/Ebus1.php" class="btn btn-dark">Back</a>
              <a href="Ebus3.php" class="btn btn-dark">Ebus 3</a>
         
-           
-
-        <?php
-
-        // Set session variables
-
-        $_SESSION["total"] = $_POST["total"];
-
-        $_SESSION["Vat @ 10%"] = $_POST["Vat @ 10%"];
-
-        $_SESSION["Discount @ 5%"] = $_POST["Discount @ 5%"];
-
-        $_SESSION["subtotal"] = $_POST["subtotal"];
-
-        ?>
-
-        
+            <?php
+            $_SESSION["total"] = $_POST["total"];
+            ?>
+            <?php
+             $_SESSION["NAME"] = $_POST["NAME"];
+             ?>
+             <?php
+            $_SESSION["EMAIL"] = $_POST["EMAIL"];
+          ?>
     </body>
-    </html>
+
+</html>

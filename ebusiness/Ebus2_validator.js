@@ -1,8 +1,10 @@
+
+
 /* global $ */
 
 function validateDetails(){
 
-     var pin,
+     var pin, NAME, EMAIL;
 
     pin = document.getElementById("user_pin").value;
 
@@ -13,21 +15,15 @@ function validateDetails(){
         alert("Please make sure your PIN is accurate");
         }
    else{
-            enablebtnPurchase();
-            }
+            enablebtnPurchase();}
+            
             
 
 function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled',false);
+
 }
-
-
 
 function disablebtnPurchase() {
-    $('#btnPurchase').prop('disabled',true);
+    $('#btnPurchase').prop('disabled',true)
 }
-    
-    
-    
-    
-    

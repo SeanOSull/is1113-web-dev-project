@@ -119,7 +119,7 @@ h1 {
 
                 Sub Total
 
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
 
               </label>
 
@@ -130,7 +130,7 @@ h1 {
               <br/>
               <label for="Discount @ 5%">
   Discount @ 5%
-  <input type="text" id="Discount @ 5%"  value="0.00" readonly/>
+  <input type="text" id="Discount @ 5%" name="Discount @ 5%"  value="0.00" readonly/>
 </label>
 
 <br/>
@@ -140,7 +140,7 @@ h1 {
 <br/>
               <label for="Vat @ 10%">
   Vat @ 10%
-  <input type="text" id="Vat @ 10%"  value="0.00" readonly/>
+  <input type="text" id="Vat @ 10%" name="Vat @ 10%" value="0.00" readonly/>
 </label>
               <br/>
 
