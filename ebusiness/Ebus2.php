@@ -115,6 +115,7 @@ h1 {
              <?php
             $_SESSION["EMAIL"] = $_POST["EMAIL"];
           ?>
+          
     </body>
 
 </html>
