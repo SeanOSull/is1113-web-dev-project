@@ -68,7 +68,7 @@ h1 {
             <br/>
           <label for="EMAIL">Email Address:</label>
      
-                <input id="EMAIL" name="EMAIL" placeholder="Cardholders Email">
+                <input type="email" id="EMAIL" name="EMAIL" placeholder="Cardholders Email">
               
 </p>
   <BR>

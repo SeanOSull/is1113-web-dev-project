@@ -1,4 +1,4 @@
- #Sportsbody {
+ #Sporthead {
     box-sizing: border-box;
 }
 .mainheading{
@@ -14,3 +14,14 @@ h1 {
     background-color: grey;
 
 }
+
+body   {
+    background: url("http://www.vectorfree.com/media/vectors/sports-balls-vector.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    } 
+    
+    #sportbody{
+        
+    }
