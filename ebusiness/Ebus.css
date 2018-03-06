@@ -17,3 +17,31 @@
     background-color: yellow;
 
 }
+
+
+ body{
+        background-color:lightblue;
+        margin-left:10%;
+        margin-right:10%;
+        
+    }
+    
+ h1{
+        background-color:yellow;
+    }
+ h3{
+        color:red;
+    }
+Button{
+        margin-left:0%;
+    }
+    
+    * {
+    box-sizing: border-box;
+}
+.mainheading{
+    border: 1px solid red;
+    padding: 15px;
+}
+    
+    

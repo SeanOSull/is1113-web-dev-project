@@ -15,20 +15,7 @@ session_start();
      <center>
         <title>RECEIPT</title>
            <link rel="stylesheet" href="Ebus.css" type="text/css" />
-     <Style>
-          body{ 
-          background-color: lightblue;
-          }
-          
-         h1{
-                
-    background-color: yellow;
-          }
-          
-          
-         
-         
-     </Style>
+   
     </head>
 
     <body>
