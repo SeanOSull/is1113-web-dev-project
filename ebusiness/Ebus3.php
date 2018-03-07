@@ -12,20 +12,21 @@ session_start();
 
     <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-     <center>
+<meta charset="utf-8">
         <title>RECEIPT</title>
            <link rel="stylesheet" href="Ebus.css" type="text/css" />
    
     </head>
 
     <body>
-     <h1> Purchase Receipt</h1>
+        
+     <h1 class="mainheading"> Purchase Receipt</h1>
       
         
         <p>
             <div class="receipt">
 
-       
+      
 
     
                 
@@ -62,13 +63,15 @@ session_start();
 
         ?>
          
-          <br/>
-        </p>
+          <br>
+        
         
         </div>
-        </br>
+        <br>
         <p>
-         <input type="button" name="homepage" value="Homepage" onClick="window.location.href = '../homepage.html'"/>
+         <input type="button" name="Homepage" value="Homepage" onClick="window.location.href = '../homepage.html'" />
          </p>
+         
+         
         </body>
 </html>

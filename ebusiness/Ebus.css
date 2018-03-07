@@ -9,6 +9,7 @@
     margin-left: 30%;
     margin-right:30%;
     background-color: lightblue;
+    text-align:center;
 }
 
 
@@ -23,6 +24,7 @@
         background-color:lightblue;
         margin-left:10%;
         margin-right:10%;
+        
         
     }
     
@@ -43,5 +45,6 @@ Button{
     border: 1px solid red;
     padding: 15px;
 }
+
     
     
