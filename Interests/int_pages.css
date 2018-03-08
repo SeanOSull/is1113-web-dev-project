@@ -25,32 +25,35 @@
 .section{
     text-align:center;
     color:white;
+    margin-left: 10%;
+    margin-right:10% ;
 }
 
 
 #section8{
-    background: green;
-    background-repeat: no-repeat;
+    background:url("https://cdns.tblsft.com/sites/default/files/salesforce_video_thumbnail.jpg");
+   background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
  } 
 
 
 #section9{
-    background: blue;
+    background: url("https://i.ytimg.com/vi/HBg_jiLdO5g/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
  } 
+ 
 #section10{
-    background:yellow;
+    background:url("https://a0.awsstatic.com/main/images/logos/aws_logo_smile_1200x630.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
  } 
 
 #section11{
-    background: red;
+    background: url("https://cdn-images-1.medium.com/max/1520/1*Jj-Xzp0sIkUg23HOqzZF4w.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,5 +61,5 @@
 
 .section{
     text-align:center;
-    color:white;
+    color:black;
 }

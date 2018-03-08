@@ -28,7 +28,7 @@ function validateDetails(){
              }  
              else pass=+1
   
-  if ((pass==3)){ 
+  if ((pass==3)) 
  
                    enablebtnPurchase();
               }
@@ -44,5 +44,4 @@ function enablebtnPurchase(){
 
 function disablebtnPurchase() {
     $('#btnPurchase').prop('disabled',true)
-}
 }
