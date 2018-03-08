@@ -8,6 +8,10 @@ h1{
     padding: 15px;
 }
 
-body{
+.divbody{
     text-align:center;
+}
+
+.divimage{
+    background-repeat: repeat-y;
 }

@@ -16,12 +16,15 @@ h1 {
 }
 
 body   {
-      text-align:center;
+     
     background: url("http://www.vectorfree.com/media/vectors/sports-balls-vector.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
 
     } 
-    
+
+.divsportbody{
+    text-align:center;
+}
  
