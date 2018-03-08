@@ -100,12 +100,13 @@
 
               </label>
 
-              <br/>
+              <br>
 
             
 
-              <br/>
-              <label for="Discount @ 5%">
+              <br>
+              
+              <label> 
   Discount @ 5%
   <input type="text" id="Discount @ 5%" name="Discount @ 5%"  value="0.00" readonly/>
 </label>

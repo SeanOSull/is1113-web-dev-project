@@ -15,7 +15,7 @@ session_start();
 <meta charset="utf-8">
         <title>RECEIPT</title>
            <link rel="stylesheet" href="Ebus.css" type="text/css" />
-   
+  
     </head>
 
     <body>
