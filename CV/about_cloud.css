@@ -5,20 +5,20 @@
     background-position: center;
  } 
 #section5 {
-    background: red;
+ background: url("https://i.ytimg.com/vi/HBg_jiLdO5g/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
  } 
 #section6 {
-    background: yellow;
+     background:url("https://a0.awsstatic.com/main/images/logos/aws_logo_smile_1200x630.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
  } 
 
 #section7{
-    background: red;
+      background: url("https://cdn-images-1.medium.com/max/1520/1*Jj-Xzp0sIkUg23HOqzZF4w.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

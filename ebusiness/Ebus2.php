@@ -51,9 +51,10 @@ session_start();
               
 
   <BR>
+      <br>
         
 
-       
+       <br>
 
 
                     <label for="user_pin">Pin:</label>
@@ -78,7 +79,7 @@ session_start();
 <input type="button" name="homepage" value="Homepage" onClick="window.location.href = '../homepage.html'"/>
 
 
-
+ 
             
              <input type="button" name="back" value="Back" onClick="window.location.href = '../ebusiness/Ebus1.php'"/>
        
